@@ -1,0 +1,6 @@
+<?php
+
+class m_biodata_elzah extends CI_Model{
+	public function view_mhs(){
+		return $this->db->get('tb_biodata_elzah');
+	} }
